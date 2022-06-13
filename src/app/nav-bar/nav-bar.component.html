@@ -1,0 +1,23 @@
+<div class="m-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a
+            class="nav-item nav-link"
+            routerLinkActive="active current"
+            routerLink="/followers"
+            [queryParams]="{ page: 1, order: 'newest' }"
+            >Followers</a
+          >
+          <a
+            class="nav-item nav-link"
+            routerLinkActive="active"
+            routerLink="/posts"
+            >Posts</a
+          >
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
